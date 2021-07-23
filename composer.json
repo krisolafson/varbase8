@@ -30,14 +30,15 @@
   },
   "require": {
     "composer/installers": "~1.0 || ~2.0",
-    "oomphinc/composer-installers-extender": "~1.0 || ~2.0",
+    "oomphinc/composer-installers-extender": "^2.0",
     "cweagans/composer-patches": "~1.0",
     "drupal/core-composer-scaffold": "^8.8.0",
     "drupal/core-project-message": "^8.8.0",
     "webflo/drupal-finder": "~1.0",
     "webmozart/path-util": "~2.0",
     "vardot/varbase": "~8.0",
-    "vardot/varbase-updater": "~1.0"
+    "vardot/varbase-updater": "~1.0",
+    "drupal/chosen": "^3.0"
   },
   "config": {
     "bin-dir": "bin/",
@@ -140,7 +141,8 @@
         {"name": "jquery-ui-touch-punch", "package": "bower-asset/jqueryui-touch-punch"},
         {"name": "masonry", "package": "npm-asset/masonry-layout"},
         {"name": "imagesloaded", "package": "npm-asset/imagesloaded"},
-        {"name": "swagger-ui", "package": "npm-asset/swagger-ui-dist"}
+        {"name": "swagger-ui", "package": "npm-asset/swagger-ui-dist"},
+        {"name": "chosen", "package":  "harvesthq/chosen"}
       ]
     },
     "enable-patching": true,
