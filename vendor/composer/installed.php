@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => '756c6e4398f236d6af51110f4f748eb33fd8213a',
+    'reference' => 'b907e49307d8e7d30146436a2b4719bd0cfba197',
     'name' => 'vardot/varbase-project',
   ),
   'versions' => 
@@ -517,24 +517,6 @@
       array (
       ),
       'reference' => '8.x-1.11',
-    ),
-    'drupal/chosen' => 
-    array (
-      'pretty_version' => '3.0.1',
-      'version' => '3.0.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '3.0.1',
-    ),
-    'drupal/chosen_lib' => 
-    array (
-      'pretty_version' => '3.0.1',
-      'version' => '3.0.1.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => NULL,
     ),
     'drupal/ckeditor' => 
     array (
@@ -3040,15 +3022,6 @@
       ),
       'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
     ),
-    'harvesthq/chosen' => 
-    array (
-      'pretty_version' => 'v1.8.7',
-      'version' => '1.8.7.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'ad86732b668627c131e61ee8f0e6e9ed52e4db8d',
-    ),
     'html2text/html2text' => 
     array (
       'pretty_version' => '4.3.1',
@@ -3830,7 +3803,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '756c6e4398f236d6af51110f4f748eb33fd8213a',
+      'reference' => 'b907e49307d8e7d30146436a2b4719bd0cfba197',
     ),
     'vardot/varbase-updater' => 
     array (
