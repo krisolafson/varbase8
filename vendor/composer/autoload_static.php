@@ -569,6 +569,10 @@ class ComposerStaticInitd41cf1b74019cb14e6de95cbe0ebdce0
             array (
                 0 => __DIR__ . '/..' . '/pear/console_getopt',
             ),
+            'Composer\\CustomDirectoryInstaller' => 
+            array (
+                0 => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src',
+            ),
             'Caxy\\HtmlDiff' => 
             array (
                 0 => __DIR__ . '/..' . '/caxy/php-htmldiff/lib',
@@ -626,6 +630,13 @@ class ComposerStaticInitd41cf1b74019cb14e6de95cbe0ebdce0
         'Caxy\\HtmlDiff\\Table\\TableRow' => __DIR__ . '/..' . '/caxy/php-htmldiff/lib/Caxy/HtmlDiff/Table/TableRow.php',
         'Caxy\\HtmlDiff\\Util\\MbStringUtil' => __DIR__ . '/..' . '/caxy/php-htmldiff/lib/Caxy/HtmlDiff/Util/MbStringUtil.php',
         'Composer\\CaBundle\\CaBundle' => __DIR__ . '/..' . '/composer/ca-bundle/src/CaBundle.php',
+        'Composer\\CustomDirectoryInstaller\\LibraryInstaller' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/LibraryInstaller.php',
+        'Composer\\CustomDirectoryInstaller\\LibraryPlugin' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/LibraryPlugin.php',
+        'Composer\\CustomDirectoryInstaller\\PackageUtils' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PackageUtils.php',
+        'Composer\\CustomDirectoryInstaller\\PearInstaller' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PearInstaller.php',
+        'Composer\\CustomDirectoryInstaller\\PearPlugin' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PearPlugin.php',
+        'Composer\\CustomDirectoryInstaller\\PluginInstaller' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PluginInstaller.php',
+        'Composer\\CustomDirectoryInstaller\\PluginPlugin' => __DIR__ . '/..' . '/mnsami/composer-custom-directory-installer/src/Composer/CustomDirectoryInstaller/PluginPlugin.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Composer\\Installers\\AglInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AglInstaller.php',
         'Composer\\Installers\\AimeosInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/AimeosInstaller.php',
@@ -806,7 +817,6 @@ class ComposerStaticInitd41cf1b74019cb14e6de95cbe0ebdce0
         'Doctrine\\Common\\Cache\\Psr6\\CacheItem' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/Psr6/CacheItem.php',
         'Doctrine\\Common\\Cache\\Psr6\\DoctrineProvider' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/Psr6/DoctrineProvider.php',
         'Doctrine\\Common\\Cache\\Psr6\\InvalidArgument' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/Psr6/InvalidArgument.php',
-        'Doctrine\\Common\\Cache\\Psr6\\TypedCacheItem' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/Psr6/TypedCacheItem.php',
         'Doctrine\\Common\\Cache\\RedisCache' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/RedisCache.php',
         'Doctrine\\Common\\Cache\\SQLite3Cache' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/SQLite3Cache.php',
         'Doctrine\\Common\\Cache\\Version' => __DIR__ . '/..' . '/doctrine/cache/lib/Doctrine/Common/Cache/Version.php',

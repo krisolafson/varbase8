@@ -37,7 +37,9 @@
     "webflo/drupal-finder": "~1.0",
     "webmozart/path-util": "~2.0",
     "vardot/varbase": "~8.0",
-    "vardot/varbase-updater": "~1.0"
+    "vardot/varbase-updater": "~1.0",
+    "mnsami/composer-custom-directory-installer": "^2.0",
+    "drupal/chosen": "^3.0"
   },
   "config": {
     "bin-dir": "bin/",
@@ -115,11 +117,13 @@
       "docroot/themes/contrib/{$name}": ["type:drupal-theme"],
       "docroot/libraries/slick": ["npm-asset/slick-carousel"],
       "docroot/libraries/ace": ["npm-asset/ace-builds"],
+      "docroot/libraries/chosen": ["harvesthq/chosen"],
       "docroot/libraries/jquery-ui-touch-punch": ["bower-asset/jqueryui-touch-punch"],
       "docroot/libraries/masonry": ["npm-asset/masonry-layout"],
       "docroot/libraries/swagger-ui/dist": ["npm-asset/swagger-ui-dist"],
       "docroot/libraries/{$name}": [
         "type:drupal-library",
+        "harvesthq/chosen",
         "type:bower-asset",
         "type:npm-asset"
       ],
