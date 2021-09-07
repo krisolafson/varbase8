@@ -39,7 +39,8 @@
     "vardot/varbase": "~8.0",
     "vardot/varbase-updater": "~1.0",
     "mnsami/composer-custom-directory-installer": "^2.0",
-    "drupal/chosen": "^3.0"
+    "drupal/chosen": "^3.0",
+    "drupal/pathauto":  "~1.0"
   },
   "config": {
     "bin-dir": "bin/",
